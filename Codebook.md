@@ -9,9 +9,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * My script does the following things:
 ** It reads all the test and training files into tables(ie subject_, x_, y_ files for the 'test' and 'train' directories
 ** It merges each of the respective set of files into data.frames so: 
-***subject_test.txt and subject_train.txt become subjects
-***x_test.txt and x_train.txt become readings
+*** subject_test.txt and subject_train.txt become subjects
+*** x_test.txt and x_train.txt become readings
 *** and y_test.txt and y_train become activities
-***There's dim() code in there commented out to test dimensions and esnure that # of cols or # rows match up
+*** There's dim() code in there commented out to test dimensions and esnure that # of cols or # rows match up
 
 
