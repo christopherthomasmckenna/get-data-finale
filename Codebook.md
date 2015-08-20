@@ -5,10 +5,8 @@ This doc describes how I got my results. * I unzipped it locally and read thru t
 Here is the data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+## Part 1 - the script loads all the observations in.
 
-
-* My script does the following things:
-## Part 1 - loads all the observations in.
 *   It reads all the test and training files into tables(ie subject_, x_, y_ files for the 'test' and 'train' directories
 *   It merges each of the respective set of files into data.frames 
 *   subject_test.txt and subject_train.txt become 'subjects'
